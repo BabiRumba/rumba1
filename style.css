@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-image:url("images/RUMBABUMBA.png");
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#2D145A;
+	background-color:#EAE1D7;
+	text-align: center;
+}
+header {
+	text-align: center;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+section {
+	text-align: center;
+}
+
+#logo{
+	min-width: 100px;
+	max-width: 200px;
+}
+
+#statement{
+	display: flex;
+	padding: 30px;
+	margin: 50px;
+	min-width: 500px;
+	text-align: center;
+	color: black;
+	background-color: #ffde00;
+	font-size: 25px;
+	font-family:'Neucha', cursive;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.container{
+	display: grid;
+	grid-template: repeat(3,50px) / repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+h2{
+	display: flex;
+	text-decoration: underline;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align: center;
+	color: #FF0066;
+	font-size: 50px;
+	font-family: 'Patrick Hand SC', cursive;
+	padding: 0px 400px;
+}
+
+.Pina{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.Mojito{
+	display: flex;
+	justify-content: space-around;
+	margin left: 80px;
+}
+
+.Daiquiri{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 50px;
+}
+
+.PinaFlex{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 50px;
+	margin-bottom: 100px;
+	align-items: center;
+	
+}
+
+.PinaText {
+	background-color: black;
+	color: #ffde00;
+	padding: 50px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 30px;
+	margin-right: 30px;
+}
+footer{
+	display: flex;
+	padding: 20px;
+	background-color: #ffde00;
+	font-family: 'Amatic SC', cursive;
+	justify-content: space-around;
+	font-size: 30px;
+}
+
+.list-inline {
+	list-style: none;
+}
+
+.list-inline .list-item {
+	display: inline;
+	margin: 30px;
+	background-color: black;
+	padding: 8px 16px;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: #ffde00;
+	font-family: Caveat;
+	font-size: 25px;
+} 
+
+.my-flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px 500px;
+}
+
+.container-cool{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: black;
+	margin-top:100px;
+}
+
+.container-awesome{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px 500px;
+}
+
+#Information{
+	background-color: #ffde00;
+	border-radius: 20px;
+	padding: 30px;
+	margin: 30px;
+	font-family: Caveat;
+	font-size: 25px;
+}
